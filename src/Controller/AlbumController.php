@@ -47,9 +47,7 @@ class AlbumController extends AbstractController
                 'length' => sprintf('%d:%02d', $minutes, $seconds),
             ];
         }
-        
-        print_r($return);die();
-                
+                        
         return $return;
     }
 }
